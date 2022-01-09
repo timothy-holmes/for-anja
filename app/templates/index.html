@@ -1,0 +1,19 @@
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+	<title>Anja is...</title>
+</head>
+<body><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<h1 style="text-align: center;">{{ sentence }}</h1>
+<script type="text/javascript">
+        $(document).ready(function() {
+  setInterval(function() {
+    cache_clear()
+  }, 500);
+});
+
+function cache_clear() {
+  window.location.reload(true);
+  // window.location.reload(); use this if you do not remove cache
+}
+    </script></body>
+</html>

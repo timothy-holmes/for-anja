@@ -1,7 +1,7 @@
 # for_anja
 Anja was having a bad day, and I was experimenting with flask. I thought this random compliment generator might cheer her up, albeit briefly. Yeah, I'm a dork...
 
-When the index page is requested, Flask serves up this function. The index page contains an instruction to refresh every 3 seconds. The next step in experiementation would have been to refactor the app into a self-contained compliment generator microservice and a page that repeats a single GET request.
+When the index page is requested, Flask serves up this function. The index page contains an instruction to refresh every 3 seconds.
 
 ```python
 def hello():
@@ -22,3 +22,5 @@ def hello():
         sentence = sentence[:-1] + '!'
     return render_template('index.html', sentence=sentence)
 ```
+
+The next step in experiementation would have been to refactor the app into a self-contained compliment generator microservice and a page that repeats a single GET request.

@@ -23,4 +23,4 @@ def hello():
     return render_template('index.html', sentence=sentence)
 ```
 
-The next step in experiementation would have been to refactor the app into a self-contained compliment generator microservice and a page that repeats a single GET request.
+The next step in experiementation would have been to refactor the app into a compliment generator microservice and a page that repeats a single GET request.

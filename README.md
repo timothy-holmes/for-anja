@@ -3,6 +3,8 @@ Anja was having a bad day, and I was experimenting with flask. I thought this ra
 
 When the index page is requested, Flask serves up this function. The index page contains an instruction to refresh every 3 seconds.
 
+Hosted here: https://timothyholmes.com.au/for_anja
+
 ```python
 def hello():
     randnum1 = random.randint(1,3) # text or emoji
